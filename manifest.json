@@ -1,0 +1,16 @@
+{
+  "name": "Watch out for your mouth",
+  "description": "This extension will delete the 4 letter words from the web page",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions" : [
+    "<all_urls>"
+  ],
+  "browser_action": {
+      "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+} 
